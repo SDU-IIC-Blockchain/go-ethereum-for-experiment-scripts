@@ -1,5 +1,5 @@
 pandas
 matplotlib
 numpy
-xlrd
+xlrd==1.2.0
 xlsxwriter
