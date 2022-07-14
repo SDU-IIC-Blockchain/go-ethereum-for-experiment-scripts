@@ -23,6 +23,7 @@ EXECUTION_TIME_ITEMS = [
     ('99%', lambda df: df.quantile(0.99)[0]),
     ('100%', lambda df: df.max()[0]),
     ('avg', lambda df: df.mean()[0]),
+    ('std', lambda df: df.std()),
 ]
 
 LATENCY_TIME_ITEMS = [
@@ -33,6 +34,7 @@ LATENCY_TIME_ITEMS = [
     ('80%', lambda df: df.quantile(0.80)[0]),
     ('100%', lambda df: df.max()[0]),
     ('avg', lambda df: df.mean()[0]),
+    ('std', lambda df: df.std()),
 ]
 
 # END - configuration
